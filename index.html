@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intranet HAQ - Portal Hospitalario</title>
+    <link rel="icon" type="image/png" href="logohaq1.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,14 +31,14 @@
             </div>
 
             <div class="fade-in-container">
-                <article class="icon" data-tooltip="Mesa de Ayuda">
+                <article class="icon" data-tooltip="Mesa de Ayuda" data-tag="Soporte">
                     <a href="http://10.1.2.120/mayudausr/login.php" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-headset icon-large" aria-hidden="true"></i>
                         <span>Mesa de Ayuda</span>
                     </a>
                 </article>
 
-                <article class="icon" data-tooltip="Agenda">
+                <article class="icon" data-tooltip="Agenda" data-tag="Soporte">
                     <a href="http://10.69.40.240/agendaHAQ/?login" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-calendar-day icon-large" aria-hidden="true"></i>
                         <span>Agenda</span>
@@ -53,24 +54,47 @@
             </div>
 
             <div class="fade-in-container">
-                <article class="icon" data-tooltip="Manuales">
+                <article class="icon" data-tooltip="Manuales" data-tag="Archivo">
                     <a href="http://10.69.40.240/Calidad/index.php" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-book-medical icon-large" aria-hidden="true"></i>
                         <span>Manuales</span>
                     </a>
                 </article>
 
-                <article class="icon" data-tooltip="GASS Digitaliza">
+                <article class="icon" data-tooltip="GASS Digitaliza" data-tag="Admin">
                     <a href="http://digitaliza.saludangeles.com:8080/efilecmconsola/" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-file-invoice icon-large" aria-hidden="true"></i>
                         <span>GASS Digitaliza</span>
                     </a>
                 </article>
 
-                <article class="icon" data-tooltip="Daruma">
+                <article class="icon" data-tooltip="Daruma" data-tag="Archivo">
                     <a href="https://cloud.darumasoftware.com/app.php/angeles-queretaro/document/build?id=6660" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-clipboard-list icon-large" aria-hidden="true"></i>
                         <span>Daruma</span>
+                    </a>
+                </article>
+
+                <article class="icon" data-tooltip="Videos HAQ" data-tag="Archivo">
+                    <a href="http://10.69.40.6/videosHAQ/" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-video icon-large" aria-hidden="true"></i>
+                        <span>Videos HAQ</span>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="portal-section" aria-label="Herramientas">
+            <div class="section-header">
+                <i class="fas fa-screwdriver-wrench" aria-hidden="true"></i>
+                <h2>Herramientas</h2>
+            </div>
+
+            <div class="fade-in-container">
+                <article class="icon" data-tooltip="Sistema de Gestion Documental">
+                    <a href="http://herramientapdf.saludangeles.com:7000/" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-file-pdf icon-large" aria-hidden="true"></i>
+                        <span>Herramientas de archivos PDF</span>
                     </a>
                 </article>
             </div>
@@ -83,7 +107,7 @@
             </div>
 
             <div class="fade-in-container">
-                <article class="icon" data-tooltip="Zimbra">
+                <article class="icon" data-tooltip="Zimbra" data-tag="Correo">
                     <a href="https://send.saludangeles.com/" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-envelope-open-text icon-large" aria-hidden="true"></i>
                         <span>Zimbra</span>
